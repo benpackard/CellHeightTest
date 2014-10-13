@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Cell.h
 //  CellHeightTest
 //
 //  Created by Ben Packard on 10/13/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Cell : UITableViewCell
 
+@property (nonatomic) UILabel *titleLabel;
 
 @end
-

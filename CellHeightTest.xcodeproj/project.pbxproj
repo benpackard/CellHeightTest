@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		C5414B3D19EC669F0037F865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5414B3C19EC669F0037F865 /* main.m */; };
 		C5414B4019EC669F0037F865 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5414B3F19EC669F0037F865 /* AppDelegate.m */; };
-		C5414B4319EC669F0037F865 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5414B4219EC669F0037F865 /* ViewController.m */; };
-		C5414B4619EC669F0037F865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5414B4419EC669F0037F865 /* Main.storyboard */; };
 		C5414B4819EC669F0037F865 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5414B4719EC669F0037F865 /* Images.xcassets */; };
-		C5414B4B19EC669F0037F865 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5414B4919EC669F0037F865 /* LaunchScreen.xib */; };
 		C5414B5719EC669F0037F865 /* CellHeightTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5414B5619EC669F0037F865 /* CellHeightTestTests.m */; };
+		C5414B6219EC66DA0037F865 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5414B6119EC66DA0037F865 /* TableViewController.m */; };
+		C5414B6519EC680E0037F865 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5414B6419EC680E0037F865 /* Cell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,14 @@
 		C5414B3C19EC669F0037F865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5414B3E19EC669F0037F865 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5414B3F19EC669F0037F865 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5414B4119EC669F0037F865 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C5414B4219EC669F0037F865 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C5414B4519EC669F0037F865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5414B4719EC669F0037F865 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C5414B4A19EC669F0037F865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C5414B5019EC669F0037F865 /* CellHeightTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellHeightTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5414B5519EC669F0037F865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5414B5619EC669F0037F865 /* CellHeightTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellHeightTestTests.m; sourceTree = "<group>"; };
+		C5414B6019EC66DA0037F865 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		C5414B6119EC66DA0037F865 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		C5414B6319EC680E0037F865 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		C5414B6419EC680E0037F865 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +82,11 @@
 			children = (
 				C5414B3E19EC669F0037F865 /* AppDelegate.h */,
 				C5414B3F19EC669F0037F865 /* AppDelegate.m */,
-				C5414B4119EC669F0037F865 /* ViewController.h */,
-				C5414B4219EC669F0037F865 /* ViewController.m */,
-				C5414B4419EC669F0037F865 /* Main.storyboard */,
+				C5414B6019EC66DA0037F865 /* TableViewController.h */,
+				C5414B6119EC66DA0037F865 /* TableViewController.m */,
+				C5414B6319EC680E0037F865 /* Cell.h */,
+				C5414B6419EC680E0037F865 /* Cell.m */,
 				C5414B4719EC669F0037F865 /* Images.xcassets */,
-				C5414B4919EC669F0037F865 /* LaunchScreen.xib */,
 				C5414B3A19EC669F0037F865 /* Supporting Files */,
 			);
 			path = CellHeightTest;
@@ -199,8 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5414B4619EC669F0037F865 /* Main.storyboard in Resources */,
-				C5414B4B19EC669F0037F865 /* LaunchScreen.xib in Resources */,
 				C5414B4819EC669F0037F865 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5414B4319EC669F0037F865 /* ViewController.m in Sources */,
 				C5414B4019EC669F0037F865 /* AppDelegate.m in Sources */,
+				C5414B6519EC680E0037F865 /* Cell.m in Sources */,
 				C5414B3D19EC669F0037F865 /* main.m in Sources */,
+				C5414B6219EC66DA0037F865 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +240,6 @@
 			targetProxy = C5414B5119EC669F0037F865 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C5414B4419EC669F0037F865 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5414B4519EC669F0037F865 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C5414B4919EC669F0037F865 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5414B4A19EC669F0037F865 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C5414B5819EC669F0037F865 /* Debug */ = {
